@@ -42,4 +42,8 @@ return require('packer').startup(function(use)
   use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
   use "cappyzawa/trim.nvim"
   use 'Aasim-A/scrollEOF.nvim'
+  use "mhartington/formatter.nvim"
+  use "williamboman/mason.nvim"
+  use "lewis6991/gitsigns.nvim"
+  use 'nvim-lualine/lualine.nvim'
 end)
