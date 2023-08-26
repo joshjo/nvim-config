@@ -28,4 +28,6 @@ vim.keymap.set('n', '<Space><Space>', builtin.oldfiles, {})
 -- vim.keymap.set('n', '<Space>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<Space>fg', ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
 vim.keymap.set('n', '<Space>fh', builtin.help_tags, {})
+vim.keymap.set('n', '<Space>fb', builtin.buffers, {})
 
+require('telescope.builtin').buffers({ sort_mru = true, ignore_current_buffer = true })
