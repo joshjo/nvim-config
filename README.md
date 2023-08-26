@@ -1,3 +1,4 @@
 Dependencies:
 
-- ripgrep
+- ripgrep (install with brew)
+- pyright (install with npm)

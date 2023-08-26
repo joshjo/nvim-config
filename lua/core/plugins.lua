@@ -40,4 +40,6 @@ return require('packer').startup(function(use)
   use 'rmagatti/auto-session'
   use 'neovim/nvim-lspconfig'
   use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+  use "cappyzawa/trim.nvim"
+  use 'Aasim-A/scrollEOF.nvim'
 end)
