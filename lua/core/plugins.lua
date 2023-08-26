@@ -46,4 +46,11 @@ return require('packer').startup(function(use)
   use "williamboman/mason.nvim"
   use {"lewis6991/gitsigns.nvim", tag='v0.6'}
   use 'nvim-lualine/lualine.nvim'
+
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/nvim-cmp'
 end)

@@ -81,4 +81,3 @@ end
 
 vim.lsp.handlers["textDocument/definition"] = goto_definition('vsplit')
 
-
