@@ -5,6 +5,7 @@ lua require("init")
 
 set list
 set listchars=tab:›\ ,eol:¬,trail:•,lead:⋅
+set signcolumn=yes
 
 " used for formatter
 augroup FormatAutogroup

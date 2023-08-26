@@ -44,6 +44,7 @@ return require('packer').startup(function(use)
   use 'Aasim-A/scrollEOF.nvim'
   use "mhartington/formatter.nvim"
   use "williamboman/mason.nvim"
-  use "lewis6991/gitsigns.nvim"
+--  use "lewis6991/gitsigns.nvim"
+  use "f-person/git-blame.nvim"
   use 'nvim-lualine/lualine.nvim'
 end)
